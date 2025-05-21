@@ -63,7 +63,7 @@ export default {
       </h1>
 
       <div class="field">
-        <label class="label" htmlFor="user-email"> Email </label>
+        <label class="label" for="user-email"> Email </label>
 
         <div class="control has-icons-left">
           <input
@@ -85,7 +85,7 @@ export default {
       </div>
 
       <div class="field" v-if="userNotFound">
-        <label class="label" htmlFor="user-name"> Name </label>
+        <label class="label" for="user-name"> Name </label>
 
         <div class="control has-icons-left">
           <input
@@ -97,7 +97,7 @@ export default {
             class="input"
             placeholder="Enter your name"
             required
-            minlength="{4}"
+            minlength="4"
           />
 
           <span class="icon is-small is-left">

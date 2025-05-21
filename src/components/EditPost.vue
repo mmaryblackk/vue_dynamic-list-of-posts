@@ -51,7 +51,7 @@ export default {
 
     <form @submit.prevent="save">
       <div class="field" data-cy="NameField">
-        <label class="label" htmlFor="post-title"> Title </label>
+        <label class="label" for="post-title"> Title </label>
         <div class="control has-icons-left has-icons-right">
           <input
             type="text"
@@ -81,7 +81,7 @@ export default {
       </div>
 
       <div class="field" data-cy="BodyField">
-        <label class="label" htmlFor="post-body"> Write Post Body </label>
+        <label class="label" for="post-body"> Write Post Body </label>
         <div class="control">
           <textarea
             id="post-body"
